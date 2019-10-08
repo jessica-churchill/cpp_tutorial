@@ -21,7 +21,7 @@ int main ();
 	cout << "You have entered " + number2 + " as your second value." << endl;
 
 	ofstream output_file;
-    output_file.open("function_results.dat");
+    	output_file.open("function_results.dat");
 
 	for (i=1; i<6; i++)
 	{		
